@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Anuphan:wght@100..700&family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Homepage.css">
+    
+</head>
+<body>
+    
+        
+       
+        <div class="welcome">Hello, I'm Antonette Lariosa!</div>
+        <p1>An IT student at Southwestern University PHINMA</p1>
+        
+        <!-- Rectangle 1 and 2 -->
+        <div class="rectangle_1"></div>
+        <div class="rectangle_2"></div>
+        
+        <!-- Image Section -->
+        <img class="pic1" src="pic1.jpg" alt="Image">
+    
+        <header>
+
+            <h1>My Portfolio</h1>
+    
+            <nav>
+    
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+    
+                    <li><a href="AboutMe.html">About Me</a></li>
+    
+                    <li><a href="Skills.html"><u>Skills</u></a></li>
+    
+                    <li><a href="Projects.html">Projects</a></li>
+    
+                    <li><a href="Contacts.html">Contact</a></li>
+    
+                </ul>
+    
+            </nav>
+    
+        </header>
+    
+    
+        <section id="skills">
+    
+            <h2>Skills</h2>
+            <hr>
+    
+            <ul id="skills-list" class="List">
+    
+                <li>HTML</li>
+    
+                <li>CSS</li>
+    
+                <li>JavaScript</li>
+    
+            </ul>
+    
+            <button id="add-skill">Add a Skill</button>
+    
+        </section>
+        
+    <style>
+        section {
+
+position: absolute;
+width: 1440px;
+
+left: 50px;
+top: 460px;
+
+background: linear-gradient(90deg, #D16A8A 0%, rgba(148, 55, 154, 0.5) 68.6%);;
+
+border-radius: 10px;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+
+}
+hr{
+    color: white;
+}
+button {
+
+margin-top: 10px;
+
+padding: 10px 15px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+background-color: #6E18A3;
+
+color: white;
+
+border: none;
+
+border-radius: 5px;
+
+}
+
+
+button:hover {
+
+background-color: #d34980;
+
+}
+.List{
+left: 50px;
+
+margin-top: 10px;
+
+font-size: 20px;
+
+line-height: 30px;
+
+margin-bottom: 15px; 
+color: white;
+
+}
+h2{
+    left: 50px;
+    margin-top: 10px;
+font-size: 30px;
+
+
+font-family: 'Anuphan';
+font-style: normal;
+font-weight: 500;
+
+line-height: 35px;
+color: #ffffff;
+    font-weight: bold;
+}
+    </style>
+    <script>
+          document.getElementById('add-skill').addEventListener('click', function() {
+    const skillsList = document.getElementById('skills-list');
+    const newSkill = prompt("Enter a new skill:");
+    if (newSkill) {
+        const li = document.createElement('li');
+        li.textContent = newSkill;
+        skillsList.appendChild(li);
+    }
+});
+    </script>
+     </body>
+    
+     </html>

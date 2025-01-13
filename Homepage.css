@@ -1,0 +1,211 @@
+/* Body setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #ffc7d0;
+}
+
+/* Main Container */
+.body {
+    position: relative;
+    width: 1440px;
+    min-height: 500vh; 
+    background: #FFFFFF;
+    overflow-y: auto; 
+    padding-bottom: 20px; 
+}
+
+
+h1 {
+    position: absolute;
+    width: 800px;
+    height: 26px;
+    left: -250px;
+    top: -10px;
+    font-family: 'Archivo Black';
+    font-size: 30px;
+    font-weight: 20;
+    color: #FFFFFF;
+
+}
+header {
+
+    background: linear-gradient(90deg, #D16A8A 0%, rgba(148, 55, 154, 0.5) 68.6%);;
+
+    color: #fff;
+
+    padding: 10px 0;
+
+    text-align: center;
+
+
+
+}
+nav ul li a {
+    
+
+font-family: 'Anuphan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+left: 500px;
+
+    text-decoration: none; 
+ 
+
+    transition: color 0.3s; 
+
+}
+nav ul li a:hover {
+
+    color: #6E18A3; /* Change color on hover */
+
+}
+
+
+nav ul {
+
+    list-style: none;
+
+    padding: 0;
+    text-align: right;
+
+}
+
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+/* Welcome Text */
+.welcome {
+    position: absolute;
+    width: 520px;
+    height: 350px;
+    left: 600px;
+    top: 180px;
+    font-family: 'Anek Latin';
+    font-size:60px;
+    background: linear-gradient(90deg, #D16A8A, #6E18A3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.welcome-1 {
+    position: absolute;
+    width: 520px;
+    height: 350px;
+    left: 500px;
+    top: 100px;
+    font-family: 'Anek Latin';
+    font-size:80px;
+    background: linear-gradient(90deg, #D16A8A, #6E18A3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.welcome_text{
+    position: absolute;
+    width: 520px;
+    height: 350px;
+    left: 500px;
+    top: 200px;
+    font-family: 'Anuphan';
+    font-size:30px;
+    font-weight: 300;
+}
+
+
+/* Rectangle Design */
+.rectangle_1 {
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    left: 140px;
+    top: 130px;
+    background: linear-gradient(0deg, rgba(209, 106, 138, 0.78), rgba(209, 106, 138, 0.78)), rgba(110, 24, 163, 0.5);
+    border-radius: 10px;
+}
+
+.rectangle_2 {
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    left: 170px;
+    top: 150px;
+    background: linear-gradient(0deg, rgba(209, 106, 138, 0.5), rgba(209, 106, 138, 0.5)), rgba(110, 24, 163, 0.5);
+    border-radius: 10px;
+}
+
+/* Fixed Image Section */
+.pic1 {
+    position: absolute;
+    left: 200px;
+    top: 170px;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+
+
+}
+p1{
+    position: absolute;
+    width: 520px;
+    height: 350px;
+    left: 600px;
+    top: 350px;
+    font-family: 'Anuphan';
+    font-size:30px;
+    font-weight: 300;
+}
+section {
+
+    padding: 20px;
+  
+    margin: 10px 0; /* Increase margin to move sections lower */
+
+    background: #fff;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visibility */
+
+}
+
+
+button {
+
+    margin-top: 10px;
+
+}
+.design1{
+       
+position: absolute;
+width: 150px;
+height: 150px;
+left: 530px;
+
+top: 450px;
+background: none;
+}
+.design2{
+       
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1000px;
+    
+    top: 150px;
+    background: none;
+    }
